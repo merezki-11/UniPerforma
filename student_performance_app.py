@@ -8,8 +8,8 @@ lda = joblib.load("lda.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
 
 
-st.title("Nelson's Academic Perfomance Evaluator")
-st.header("This app predicts a student's performance category based on their habits and other details. Enter the required information to see if the student is likely to achieve Distinction, Good, Average, or another grade category. Powered by machine learning")
+st.title("Nelson's Academic Perfomance Evaluator for University Students")
+st.header("This app predicts a University student's performance category based on their habits and other details. Enter the required information to see if the student is likely to achieve Distinction, Good, Average, or another grade category. Powered by machine learning")
 age = st.number_input("Please input your age: ")
 study_hours_per_day = st.number_input("On a scale of (0-12), How long do you study daily?: ")
 attendance_percentage = st.number_input("On a scale of (40-100), What was your attendance percentage last semester?: ")
